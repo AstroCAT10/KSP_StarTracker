@@ -3,7 +3,7 @@
 Star Tracker mod for Kerbal Space Program. It is a direct modification of the HullCamVDS mod with some functions from the Tarsier Space Technologies mod. It uses the European Space Agency Tetra3 algorithm and CPython.
 
 ## Star Tracker Info
-The purpose of this mod is to find the attitude of a spacecraft by taking images of the stars. This attitude solution is expressed as a quaternion, which - along with gyroscope data - can be used in a control system (say in kOS) to control the attitude of the spacecraft. This is how satellites control their attitude in the real world.
+The purpose of this mod is to find the attitude of a spacecraft by taking images of the stars. This attitude solution is expressed as a quaternion [x,y,z,s], which - along with gyroscope data - can be used in a control system (say in kOS) to control the attitude of the spacecraft. This is how satellites control their attitude in the real world.
 
 I have only added code to "MuMechModuleHullCamera.cs", including from TST and my own Star Tracker code. I most likely will not be continuing development with this. But if someone wants to pick it up and do the things listed in the TODO section, or add other things, please go ahead!
 
