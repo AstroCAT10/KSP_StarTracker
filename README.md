@@ -48,6 +48,7 @@ Bugs:
 - Camera and rendered galaxy texture are not aligned
 - Crash if physics-less "High-speed" time warp is used while Star Tracker is active
 - Fix possible skybox distortion (maybe map the background texture to part of a sphere?? --is that possible??)
+- Tetra3 data logging issue - [Errno 9] Bad File Descriptor. Only occurs when calling Tetra3 from C# via C++ binder. This doesn't stop the solver from running, but it would be nice to figure out why that's happening. Error can only be seen when calling python functions from an executable C# project.
 
 TODO:
 - Allow star tracker to sample at a specific rate (right now the code waits until the star tracker tries to get a solution, which happens at a non-constant rate)
